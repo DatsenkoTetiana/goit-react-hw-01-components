@@ -1,4 +1,4 @@
-export const Profile = styled.div`
+export const Card = styled.div`
 margin: 0 auto;
 width: 350px;
 border-radius: 10px;
