@@ -31,6 +31,9 @@ width: 100%;
 border-right: solid 2px white;
 padding: 30px 0;
 background-color: ${getRandomHexColor};
+:last-child{
+  border-right: none;
+}
 `;
 export const Label = styled.span`
 font-weight: 700;

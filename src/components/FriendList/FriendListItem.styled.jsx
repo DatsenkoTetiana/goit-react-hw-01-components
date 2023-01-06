@@ -7,9 +7,7 @@ heigth: 100px;
 background-color:  #fff;
 box-shadow: 5px 6px 13px 5px #c6cccced;
 padding-left: 20px;
-:not(:last-child){
     margin-top: 20px;
-}
 `;
 export const Status = styled.span`
 height: 10px;
