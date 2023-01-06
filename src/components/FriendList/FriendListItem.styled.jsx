@@ -3,14 +3,12 @@ export const Item = styled.li`
 display: flex;
 align-items: center;
   justify-content: start;
-width: 100%;
-border-radius: 10px;
 heigth: 100px;
 background-color:  #fff;
 box-shadow: 5px 6px 13px 5px #c6cccced;
-padding: 0 20px;
+padding-left: 20px;
 :not(:last-child){
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 `;
 export const Status = styled.span`
@@ -21,6 +19,7 @@ background-color: ${props => (props.status ? 'green' : 'red')};
 `;
 export const Avatar = styled.img`
 margin: 20px;
+border: solid 1px grey;
 width: 100px;
 border-radius: 10px;
 margin-left: 20px;

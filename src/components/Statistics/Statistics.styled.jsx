@@ -3,6 +3,7 @@ import getRandomHexColor from '../RandomHexColor/RandomHexColor.jsx';
 
 export const Wrapper = styled.section`
 margin: 0 auto;
+    margin-top: 20px;
 width: 600px;
 background-color: #fff;
 box-shadow: 5px 6px 13px 5px #c6cccced;
