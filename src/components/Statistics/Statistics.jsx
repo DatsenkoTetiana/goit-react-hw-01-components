@@ -22,7 +22,7 @@ export const Statistics = ({ title, stats }) => {
     </Wrapper>
   );
 };
-Statistics.PropTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
