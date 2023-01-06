@@ -44,14 +44,14 @@ margin: 0;
 padding: 0;
   justify-content: space-between;
 `;
-export const StatsItem = styled.li`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-padding: 30px 0;
-background-color: #f0f0f0;
-`;
+// export const StatsItem = styled.li`
+// display: flex;
+// flex-direction: column;
+// align-items: center;
+// width: 100%;
+// padding: 30px 0;
+// background-color: #f0f0f0;
+// `;
 export const Label = styled.span`
 font-weight: 700;
 font-size: 30px;
