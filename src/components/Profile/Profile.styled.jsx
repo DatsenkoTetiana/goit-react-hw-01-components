@@ -1,13 +1,11 @@
-// import styled from '@emotion/styled';
 import styled from "styled-components";
 
-export const Card = styled.div`
+export const Wrap = styled.div`
 margin: 0 auto;
 width: 600px;
 border-radius: 10px;
 background-color: #fff;
 box-shadow: 5px 6px 13px 5px #c6cccced;
-oveflow: hidden;
 `;
 export const Description = styled.div`
 display: flex;
@@ -16,7 +14,6 @@ align-items: center;
 padding: 40px 0;
 `;
 export const Avatar = styled.img`
-height: 300px;
 width: 300px;
 background-color:  #e7eeeeed;
 border-radius: 50%;
@@ -51,8 +48,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 100%;
+border-right: solid 2px white;
 padding: 30px 0;
 background-color: #f0f0f0;
+:last-child{ border-right: none;}
 `;
 export const Label = styled.span`
 font-weight: 700;

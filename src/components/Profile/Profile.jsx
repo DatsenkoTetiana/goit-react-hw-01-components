@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {
-  Card,
+  Wrap,
   Description,
   Avatar,
   Name,
@@ -20,7 +20,7 @@ export const Profile = ({
   stats: { followers, views, likes },
 }) => {
   return (
-    <Card>
+    <Wrap>
       <Description>
         <Avatar src={avatar} alt="User avatar" />
         <Name>{username}</Name>
@@ -41,7 +41,7 @@ export const Profile = ({
           <Quantity>{likes}</Quantity>
         </StatsItem>
       </Stats>
-    </Card>
+    </Wrap>
   );
 };
 Profile.propTypes = {
