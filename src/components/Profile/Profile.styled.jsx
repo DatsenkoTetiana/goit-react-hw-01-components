@@ -1,7 +1,9 @@
-import styled from 'styled-components';
+// import styled from '@emotion/styled';
+import styled from "styled-components";
+
 export const Card = styled.div`
 margin: 0 auto;
-width: 350px;
+width: 600px;
 border-radius: 10px;
 background-color: #fff;
 box-shadow: 5px 6px 13px 5px #c6cccced;
@@ -14,8 +16,8 @@ align-items: center;
 padding: 40px 0;
 `;
 export const Avatar = styled.img`
-height: 200px;
-width: 200px;
+height: 300px;
+width: 300px;
 background-color:  #e7eeeeed;
 border-radius: 50%;
 `;
@@ -44,14 +46,14 @@ margin: 0;
 padding: 0;
   justify-content: space-between;
 `;
-// export const StatsItem = styled.li`
-// display: flex;
-// flex-direction: column;
-// align-items: center;
-// width: 100%;
-// padding: 30px 0;
-// background-color: #f0f0f0;
-// `;
+export const StatsItem = styled.li`
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding: 30px 0;
+background-color: #f0f0f0;
+`;
 export const Label = styled.span`
 font-weight: 700;
 font-size: 30px;
