@@ -12,7 +12,7 @@ export const Statistics = ({ title, stats }) => {
     <Wrapper>
       <Title>{title}</Title>
       <StatList>
-        {stats.map(({id, label, percentage}) => (
+        {stats.map(({ id, label, percentage }) => (
           <Item key={id}>
             <Label>{label}</Label>
             <Percentage>{percentage}%</Percentage>
